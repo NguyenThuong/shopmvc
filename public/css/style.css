@@ -1,0 +1,31 @@
+#sidebar .panel-heading {
+  cursor: pointer;
+}
+ul.pagination {
+  margin-top: 0;
+}
+.product-list h4 {
+	height: 1em;
+	overflow: hidden;
+}
+li.submenu {
+	padding-bottom: 0;
+}
+li.submenu > a {
+	font-weight: bold;
+}
+li.submenu ul {
+	margin: 10px -15px 0px -15px;
+	border-top: 1px solid #DDD;
+
+}
+li.submenu ul>li:before {
+	content: "\00BB";
+	display: inline-block;
+	width: 15px;
+	color: #2A6496;
+}
+.product-list .thumbnail > a {
+	display: table-cell;
+	vertical-align: middle;
+}
